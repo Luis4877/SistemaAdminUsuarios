@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporte" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e8427101-3914-4f9e-9652-29e41915b4fa">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Prestige"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="foto" class="java.lang.String"/>
+	<parameter name="id" class="java.lang.Integer" isForPrompting="false"/>
+	<parameter name="puesto" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from trabajadores where id=$P{id}]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="estadoregistro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="estadoregistro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="nombre" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="curp" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="curp"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="nss" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="nss"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="rfc" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rfc"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="nssnuevo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="nssnuevo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="origen" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="origen"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="estudios" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="estudios"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="correo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="correo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="telefono" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="telefono"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="cuenta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="cuenta"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="otro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="otro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="direccion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="direccion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="emergencia" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="emergencia"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="comentarios" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="comentarios"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="historialLaboral" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="historialLaboral"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="rutasAsignadas" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rutasAsignadas"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="status" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="status"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="rutaFoto" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="rutaFoto"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="fecha_registro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="fecha_registro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<field name="nombre_carpeta" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="nombre_carpeta"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="trabajadores"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="341" splitType="Stretch">
+			<image>
+				<reportElement x="80" y="79" width="150" height="235" uuid="3b709979-c4a1-47fd-98f2-49cf6fb3dcd5"/>
+				<imageExpression><![CDATA["C:/reporte/prestigeAtrasCorrecion.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="490" y="70" width="150" height="235" uuid="9bb06a01-2c03-4e5a-936b-68910aa97afe"/>
+				<imageExpression><![CDATA["C:/reporte/prestigecorrecionadelante.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="536" y="256" width="104" height="10" forecolor="#003C4D" uuid="864b34b1-3740-4481-8a89-42cf8ab23549"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nssnuevo}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="536" y="244" width="104" height="10" forecolor="#003C4D" uuid="f207d9c8-ed4b-4692-8d85-5dbbd427c10b"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rfc}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="564" y="280" width="76" height="10" forecolor="#003C4D" uuid="eb2275c4-2157-4e10-82bb-01cb93a743c8"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement positionType="Float" x="538" y="154" width="48" height="77" uuid="6f70a571-31df-461d-82d5-09d82a414008"/>
+				<imageExpression><![CDATA[$P{foto}.toString()]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="536" y="293" width="104" height="10" forecolor="#003C4D" uuid="ac7d7b45-c7f2-41ff-8249-f7c3960407c5"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{puesto}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="536" y="269" width="104" height="10" forecolor="#003C4D" uuid="c39d27e2-f8e3-41ba-b9bd-f08ac47f9c4d"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{curp}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="536" y="232" width="104" height="10" forecolor="#003C4D" uuid="a9e09f64-2a35-400b-8cc2-9baf429bbbc8"/>
+				<textElement>
+					<font size="7" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre}.toString()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="36" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="1" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
